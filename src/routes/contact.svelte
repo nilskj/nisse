@@ -1,5 +1,4 @@
 <section class='max-w-2xl mx-auto text-gray-700 text-xl pb-20'>
-	<img src='/dieter_rams.jpeg' alt='dieter rams graphic' class='max-w-full mx-auto m-4 mb-4' />
 	<h3 class='text-gray-400 text-xl my-2 mt-10 uppercase'>Contact</h3>
 	<dl class='flex flex-col'>
 		<dt>mail</dt>

@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@tailwindcss/typography": "^0.4.1"
+		"@tailwindcss/typography": "^0.4.1",
+		"rive-js": "^0.7.30"
 	}
 }

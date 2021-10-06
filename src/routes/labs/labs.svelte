@@ -6,7 +6,6 @@
 	<title>NISSE.TECH - {title}</title>
 </svelte:head>
 
-<section class='prose mx-auto'>
-	<hr />
+<section class='prose mx-auto py-8'>
 	<slot />
 </section>

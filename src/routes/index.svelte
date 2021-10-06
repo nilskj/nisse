@@ -1,5 +1,5 @@
 <section class='max-w-2xl mx-auto text-gray-700 text-xl pb-20'>
-	<img src='/dieter_rams.jpeg' alt='dieter rams graphic' class='max-w-full mx-auto m-4 mb-4' />
+
 	<h3 class='text-gray-400 text-xl my-2 mt-10 uppercase'>About</h3>
 	<p>Hey! My name is Nils, I'm a frontend web developer currently working with the awesome folks at
 		<a href='https://www.queenslab.se'>Queenslab</a>. Since 2017 I have worked at some different web agencies as a
