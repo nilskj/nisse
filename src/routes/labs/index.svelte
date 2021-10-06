@@ -17,6 +17,8 @@
 </svelte:head>
 
 <section class='max-w-2xl mx-auto text-gray-700 text-xl pb-20'>
+	<img src='/dieter_rams.jpeg' alt='dieter rams graphic' class='max-w-full mx-auto mb-4 mt-4' />
+
 	<h3 class='text-gray-400 text-xl my-2 mt-10 uppercase'>Labs</h3>
 	<p>Labs are short content entries of mine that I share. They could be some random rants, some code discovery or some
 		cool experiments, enjoy!</p>
