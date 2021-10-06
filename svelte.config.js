@@ -1,6 +1,7 @@
 import mdsvexConfig from './mdsvex.config.js';
 import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-netlify';
+import adapter from '@sveltejs/adapter-static';
+//import adapter from '@sveltejs/adapter-netlify';
 import { mdsvex } from 'mdsvex';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -23,7 +24,12 @@ const config = {
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: "#svelte",
-		adapter: adapter(),
+		adapter: adapter({
+			// default options are shown
+			pages: "build",
+			assets: "build",
+			fallback: null
+		}),
 		vite: {
 			css: {
 				preprocessorOptions: {
