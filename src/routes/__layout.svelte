@@ -5,11 +5,11 @@
 
 	let rive;
 
-	$: hideHeaderAnimation = isSubPage($page.path);
+/*	$: hideHeaderAnimation = isSubPage($page.path);
 
 	function isSubPage(urlPath) {
 		return urlPath.split('/').length > 2;
-	}
+	}*/
 
 	function restartAnimation() {
 		rive?.play(['Hover']);
@@ -21,7 +21,7 @@
 	<nav>
 		<a href='/' on:click={() => restartAnimation()}>
 			<h1 class='text-3xl text-gray-800'>nisse.tech</h1>
-			<h2 class='text-base text-gray-600'>Nils Kjellman - Web developer, designer and mentor</h2>
+			<h2 class='text-base text-gray-600'>Web developer, designer and mentor</h2>
 		</a>
 		<ul class='flex mx-auto justify-center gap-10 mt-4 text-gray-800 font-bold' on:click={() => restartAnimation()}>
 			<li>
