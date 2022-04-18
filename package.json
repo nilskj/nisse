@@ -11,9 +11,9 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-netlify": "^1.0.0-next.32",
-		"@sveltejs/adapter-static": "^1.0.0-next.20",
-		"@sveltejs/kit": "next",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.51",
+		"@sveltejs/adapter-static": "^1.0.0-next.29",
+		"@sveltejs/kit": "^1.0.0-next.315",
 		"@typescript-eslint/eslint-plugin": "^4.31.1",
 		"@typescript-eslint/parser": "^4.31.1",
 		"autoprefixer": "^10.3.6",
