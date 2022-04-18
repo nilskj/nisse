@@ -1,6 +1,40 @@
 /* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
 /* Write your global styles here, in PostCSS syntax */
-@tailwind base;
+/*@tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url(prism-synthwave.css);
+@import url(prism-synthwave.css);*/
+@import url('https://rsms.me/inter/inter.css');
+html {
+  font-family: 'Inter', sans-serif;
+  color: #222;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+.inter-40 {
+  font-size: 40px;
+  letter-spacing: -0.022em;
+  line-height: 56px;
+}
+
+.inter-30 {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: 42px;
+  font-weight: 500;
+}
+
+:root {
+  --light-gray: #e8e2db;
+  --size: 64px;
+  --stripe-1: var(--light-gray);
+  --stripe-2: #222;
+}
+
+html, body {
+  background-color: var(--light-gray);
+}
