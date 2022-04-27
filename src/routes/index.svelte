@@ -30,6 +30,7 @@
 	}
 	.contact-list {
 			display: flex;
+		justify-content: center;
 		padding-top: 20vh;
 	}
 	main {
@@ -86,7 +87,7 @@
 		based in Sweden.
 	</p>
 
-	<p class="inter-30">I currently work at Queenslab, assigned at Volvo Cars.</p>
+	<p class="inter-30">I currently work at <a href='https://queenslab.se/'>Queenslab</a> assigned at Volvo Cars.</p>
 	<p class="inter-30">
 		<strong class="stripes"> 🪄 ✨</strong>
 	</p>
@@ -108,8 +109,8 @@
 		>
 	</aside>-->
 	<dl class="contact-list">
-		<dd><a href="mailto:nilskjellman@gmail.com">mail it</a></dd>
-		<dd><a href="https://www.linkedin.com/in/nils-kjellman-abb8b935/">work it</a></dd>
-		<dd><a href="https://twitter.com/nils_kjellman">shout it</a></dd>
+		<dd><a href="mailto:nilskjellman@gmail.com">mail</a></dd>
+		<dd><a href="https://www.linkedin.com/in/nils-kjellman-abb8b935/">work</a></dd>
+		<dd><a href="https://twitter.com/nils_kjellman">shout</a></dd>
 	</dl>
 </main>
